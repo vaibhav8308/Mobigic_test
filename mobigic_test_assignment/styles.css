@@ -1,0 +1,67 @@
+#searchtext .grid-item.sel {
+    background-image: linear-gradient(rgb(93, 86, 190), rgb(0, 89, 255));
+    color: bisque;
+}
+
+table {
+    border-collapse: separate;
+}
+
+td {
+    border: 3px solid rgb(139, 14, 177);
+    max-width: 50px;
+    max-height: 50px;
+    background-image: linear-gradient(red, yellow);
+    color: rgb(63, 11, 73);
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
+
+.input {
+    max-width: 400px;
+    max-height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: darkmagenta;
+    color: rgb(248, 247, 247);
+    font-style: oblique;
+    font-size: 30px;
+    margin: -180px 0 0 -150px;
+}
+
+.search {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: radial-gradient(rgb(233, 54, 188), rgb(146, 233, 48));
+    max-width: 150px;
+    max-height: 40px;
+    font-weight: 200;
+    color: cyan;
+    margin: -130px 0 0 -150px;
+}
+
+.grid-container {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -70px 0 0 -150px;
+    font-size: larger;
+}
+
+.body {
+    background-image: linear-gradient(45deg, #df6f3b, #21d3eb, #e78b3f);
+}
+
+.header {
+    color: #1b0310;
+    background-image: linear-gradient(45deg, #ee14ee, #2ad42a);
+    background-size: 100%;
+    text-align: center;
+}
